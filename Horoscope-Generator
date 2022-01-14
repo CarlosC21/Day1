@@ -1,0 +1,16 @@
+##1. Create a greeting for your program.
+
+print("Welcome to my generator")
+
+##2. Ask the user to describe their personality in 3 words.
+
+personality = input("Describe your personality in 3 words: \n") ##\n allows for a new line to be created
+
+##3. Ask the user for their horoscope.
+
+horoscope = input("What is your horoscope: \n") ##name the function personality and horoscope to use in next step
+
+##4. Combine the name of their city and pet and show them their band name.
+print(horoscope + " are " + personality) ##giving 'are' the proper space will read the sentence clearly
+
+##this project shows understanding of print, input, line separation, concat, and using variables
